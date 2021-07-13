@@ -47,6 +47,10 @@
   display: inline-block;
 }
 
+.links:hover {
+  cursor: pointer;
+}
+
 .links::before {
   content: '';
   display: block;
@@ -458,7 +462,7 @@ h5 {
     justify-content: center;
     position: relative;
     top: 1.8rem;
-    left: 7.2rem;
+    left: 9rem;
   }
 
   .art-img {
@@ -483,7 +487,7 @@ h5 {
     border-radius: 5.5px;
     position: absolute;
     top: 4rem;
-    left: 3rem;
+    left: 5rem;
   }
 
   .about-txt > h1 {
@@ -633,13 +637,18 @@ h5 {
     font-size: 15px;
   }
 
+  .dev {
+    font-weight: lighter;
+    margin: 2rem 12rem;
+  }
+
   #arrow {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 1.8rem;
-    left: 18.6rem;
+    left: 19rem;
   }
 
   .art-img {
@@ -664,7 +673,7 @@ h5 {
     border-radius: 5.5px;
     position: absolute;
     top: 4rem;
-    left: 11.7rem;
+    left: 13rem;
   }
 
   .about-txt > h1 {
