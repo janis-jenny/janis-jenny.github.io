@@ -34,9 +34,10 @@
 .link:hover {
   text-decoration: none;
   color: var(--color1);
+  cursor: pointer;
 }
 
-.links {
+.link {
   overflow: hidden;
   padding: 9px 25px;
   border-radius: 6px;
@@ -45,13 +46,10 @@
   text-decoration: none;
   position: relative;
   display: inline-block;
+  
 }
 
-.links:hover {
-  cursor: pointer;
-}
-
-.links::before {
+.link::before {
   content: '';
   display: block;
   position: absolute;
@@ -67,7 +65,7 @@
   will-change: transform;
 }
 
-.links:hover::before {
+.link:hover::before {
   transform-origin: 0 0;
   transform: scaleX(1);
 }
@@ -141,8 +139,9 @@
   transform: scale(1.1);
 }
 
-.social {
-  padding-top: 5rem;
+.left-side {
+  position: relative;
+  top: 5rem;
 }
 
 .name {
@@ -774,7 +773,7 @@ h5 {
   }
 
   .social li {
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     padding: 0 2rem;
   }
 
