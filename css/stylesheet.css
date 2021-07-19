@@ -26,18 +26,6 @@
 }
 
 .link {
-  color: var(--color1);
-  text-shadow: 2px 2px 2px #a99561;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: none;
-  color: var(--color1);
-  cursor: pointer;
-}
-
-.link {
   overflow: hidden;
   padding: 9px 25px;
   border-radius: 6px;
@@ -48,6 +36,12 @@
   display: inline-block;
   
 }
+
+.link:hover {
+  color: var(--color1);
+  cursor: pointer;
+  text-decoration: none;
+} 
 
 .link::before {
   content: '';
@@ -415,7 +409,7 @@ h5 {
     margin-bottom: 0.45rem;
   }
 
-  .links {
+  .link {
     font-size: 0.8rem;
     padding: 0.34rem;
     margin: 0;
@@ -428,11 +422,14 @@ h5 {
   .name {
     font-size: 2rem;
     margin-top: 3rem;
+    font-size: 1.7rem;
   }
 
   .dev {
     font-weight: lighter;
-    margin: 2rem 5rem;
+    margin: 2rem 4rem 8rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .social li {
@@ -461,20 +458,20 @@ h5 {
     justify-content: center;
     position: relative;
     top: 1.8rem;
-    left: 9rem;
+    left: 8.3rem;
   }
 
   .art-img {
     position: relative;
     top: 3rem;
-    left: 2.7rem;
+    left: 2.6rem;
     width: 230px;
     height: 330px;
   }
 
   .art-img img {
     position: absolute;
-    left: 2.7rem;
+    left: 2.4rem;
     right: 0;
     z-index: 1;
   }
@@ -486,19 +483,21 @@ h5 {
     border-radius: 5.5px;
     position: absolute;
     top: 4rem;
-    left: 5rem;
+    left: 4.4rem;
   }
 
   .about-txt > h1 {
     font-weight: bolder;
     color: var(--color3);
-    margin: 5rem 2rem 0 2rem;
+    margin: 0 2rem;
+    font-size: 1.8rem;
   }
 
   .about-txt > h2 {
     font-weight: bolder;
     color: var(--color5);
-    margin: 2rem 2rem;
+    margin: 1rem 2rem;
+    font-size: 1.8rem;
   }
 
   .about-txt > p {
@@ -507,7 +506,7 @@ h5 {
   }
 
   .about-txt > span {
-    top: 0.8rem;
+    top: 0.6rem;
     right: 0.2rem;
   }
 
@@ -534,6 +533,11 @@ h5 {
     padding: 1rem;
     margin: 0 2rem;
     bottom: 1rem;
+  }
+
+  .title > h1, 
+  .title > h2 {
+    font-size: 1.8rem;
   }
 
   .contrast > h3 {
@@ -629,7 +633,7 @@ h5 {
 
   .social li {
     margin-top: 3.5rem;
-    padding: 0 4rem;
+    padding: 0 3.2rem;
   }
 
   .contrast > h3 {
@@ -638,7 +642,7 @@ h5 {
 
   .dev {
     font-weight: lighter;
-    margin: 2rem 12rem;
+    margin: 3rem 15rem 6rem;
   }
 
   #arrow {
@@ -647,13 +651,13 @@ h5 {
     align-items: center;
     position: relative;
     top: 1.8rem;
-    left: 19rem;
+    left: 20rem;
   }
 
   .art-img {
     position: relative;
-    top: 3rem;
-    left: 11.5rem;
+    top: 2rem;
+    left: 13rem;
     width: 230px;
     height: 330px;
   }
@@ -671,14 +675,14 @@ h5 {
     height: 310px;
     border-radius: 5.5px;
     position: absolute;
-    top: 4rem;
-    left: 13rem;
+    top: 3rem;
+    left: 15rem;
   }
 
   .about-txt > h1 {
     font-weight: bolder;
     color: var(--color3);
-    margin: 5rem 2rem 0 2rem;
+    margin: 0.5rem 2rem 0 2rem;
   }
 
   .about-txt > h2 {
@@ -714,7 +718,7 @@ h5 {
   }
 
   .techs > li {
-    margin: 0.6rem 1rem;
+    margin: 0.6rem 12rem;
   }
 
   .tech-list {
