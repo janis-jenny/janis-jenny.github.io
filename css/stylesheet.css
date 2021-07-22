@@ -458,20 +458,20 @@ h5 {
     justify-content: center;
     position: relative;
     top: 1.8rem;
-    left: 8.3rem;
+    left: 7.8rem;
   }
 
   .art-img {
     position: relative;
     top: 3rem;
-    left: 2.6rem;
+    left: 2.5rem;
     width: 230px;
     height: 330px;
   }
 
   .art-img img {
     position: absolute;
-    left: 2.4rem;
+    left: 2rem;
     right: 0;
     z-index: 1;
   }
@@ -483,7 +483,7 @@ h5 {
     border-radius: 5.5px;
     position: absolute;
     top: 4rem;
-    left: 4.4rem;
+    left: 4.1rem;
   }
 
   .about-txt > h1 {
@@ -620,7 +620,7 @@ h5 {
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
-  .links {
+  .link {
     padding: 0.6rem;
     margin-bottom: 0.4rem;
     font-size: 0.9rem;
